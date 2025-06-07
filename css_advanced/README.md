@@ -34,5 +34,5 @@ This project is part of the ALX Software Engineering Curriculum, focusing on **a
 
 ---
 
-**Author**: [Akena Nicolas]  
+**Author**: [Akena Nicholas]  
 **Project**: ALX HTML + CSS Advanced  
