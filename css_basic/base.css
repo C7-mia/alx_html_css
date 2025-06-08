@@ -21,3 +21,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+header, article, aside, footer {
+  border: 1px dashed lightgray;
+}
