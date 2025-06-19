@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Headphones</title>
+  <link rel="stylesheet" href="7-styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Spin+Cycle+OT&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="hero">
+    <div class="overlay">
+      <div class="container">
+        <nav class="navbar">
+          <img src="images/logo_headphones.png" alt="Headphones logo" class="logo" />
+          <input type="checkbox" id="nav-toggle" class="nav-toggle"/>
+          <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+          <ul class="nav-links">
+            <li><a href="#what-we-do">What we do</a></li>
+            <li><a href="#our-results">Our results</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </nav>
+        <div class="hero-content">
+          <h1>Headphones for the people</h1>
+          <p>The ultimate sound experience. Anywhere. Anytime.</p>
+          <a href="#what-we-do" class="btn">Discover now</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- What We Do -->
+    <section id="what-we-do" class="section white-bg">
+      <div class="container">
+        <h2 class="section-title">What we do</h2>
+        <div class="features">
+          <div class="feature">
+            <img src="images/icons8-audio-wave-24.png" alt="High Fidelity" />
+            <h3>High Fidelity</h3>
+            <p>Crystal clear sound that brings your music to life.</p>
+          </div>
+          <div class="feature">
+            <img src="images/icons8-musical-note-50.png" alt="Wireless Freedom" />
+            <h3>Wireless Freedom</h3>
+            <p>Enjoy music with zero cables and zero limits.</p>
+          </div>
+          <div class="feature">
+            <img src="images/icons8-airpods-pro-max-48.png" alt="Long Battery" />
+            <h3>Long Battery</h3>
+            <p>Up to 40 hours of non-stop music on a single charge.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Results -->
+    <section id="our-results" class="section results">
+      <div class="overlay">
+        <div class="container">
+          <h2 class="section-title">Our results</h2>
+          <p class="section-desc">Thousands of happy customers. Countless hours of audio enjoyment. Real results.</p>
+          <div class="results-pentagons">
+            <div class="pentagon-container">
+              <div class="pentagon-image">
+                <img src="images/pentagone.png" alt="90%" />
+                <div class="overlay-text">
+                  <span class="percentage">90%</span>
+                  <span class="label">User satisfaction</span>
+                </div>
+              </div>
+            </div>
+            <div class="pentagon-container">
+              <div class="pentagon-image">
+                <img src="images/pentagone.png" alt="80%" />
+                <div class="overlay-text">
+                  <span class="percentage">80%</span>
+                  <span class="label">Sound quality</span>
+                </div>
+              </div>
+            </div>
+            <div class="pentagon-container">
+              <div class="pentagon-image">
+                <img src="images/pentagone.png" alt="70%" />
+                <div class="overlay-text">
+                  <span class="percentage">70%</span>
+                  <span class="label">Battery life</span>
+                </div>
+              </div>
+            </div>
+            <div class="pentagon-container">
+              <div class="pentagon-image">
+                <img src="images/pentagone.png" alt="60%" />
+                <div class="overlay-text">
+                  <span class="percentage">60%</span>
+                  <span class="label">Customer service</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section white-bg">
+      <div class="container">
+        <h2 class="section-title">Contact us</h2>
+       <form class="contact-form" novalidate>
+  <input type="text" name="name" placeholder="Your name" required minlength="2" pattern="[A-Za-z\s]+" title="Only letters and spaces allowed" />
+  
+  <input type="email" name="email" placeholder="Your email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter a valid email address" />
+  
+  <textarea name="message" rows="5" placeholder="Your message" required minlength="10" title="Message should be at least 10 characters long"></textarea>
+  
+  <button type="submit" class="btn">Send message</button>
+</form>
+
+      </div>
+    </section>
+  </main>
+
+    <!-- Footer -->
+   <footer class="footer">
+  <div class="footer-top">
+    <div class="footer-left">
+      <img src="images/logo_headphones.png" alt="Headphones logo" class="footer-logo" />
+      <span class="footer-brand"></span>
+    </div>
+    <div class="footer-right">
+      <a href="#"><img src="images/fb.svg" alt="Facebook" class="social-icon" /></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter" class="social-icon" /></a>
+      <a href="#"><img src="images/instagram.svg" alt="Instagram" class="social-icon" /></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="copyright">&copy; 2025 Headphones. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
